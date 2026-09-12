@@ -31,7 +31,13 @@ jobs:
         env:
           PROFILE_GITHUB_TOKEN: ${{ secrets.PROFILE_GITHUB_TOKEN }}
           PROFILE_FORCE_CODE_STATS: "1"
-        run: python generate_profile.py
+        run: |
+          AUTH=$(printf 'x-access-token:%s' "$PROFILE_GITHUB_TOKEN" | base64 -w0)
+          echo "::add-mask::$AUTH"
+          export GIT_CONFIG_COUNT=1
+          export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+          export GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $AUTH"
+          python generate_profile.py
 
       - name: Commit generated assets and stats cache
         run: |
