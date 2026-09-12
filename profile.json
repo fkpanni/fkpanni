@@ -1,0 +1,85 @@
+{
+  "header": "efkay@github",
+  "birthday": "2003-10-08",
+  "system": [
+    [
+      "OS",
+      "Windows 11, EndeavourOS Linux"
+    ],
+    [
+      "Uptime",
+      "__AGE__"
+    ],
+    [
+      "Role",
+      "Software Engineer"
+    ],
+    [
+      "Location",
+      "Chicago, Illinois, United States, Earth"
+    ],
+    [
+      "Education",
+      "M.S. Cybersecurity, B.S. Computer Science"
+    ],
+    [
+      "IDE",
+      "Neovim 0.12.5, VS Code 1.136.2"
+    ]
+  ],
+  "stack": [
+    [
+      "Languages.Programming",
+      [
+        "TypeScript, Python, JavaScript, Swift",
+        "Java, SQL, C++, C"
+      ]
+    ],
+    [
+      "Stack.Web",
+      "React, Vite, Supabase, Zustand"
+    ],
+    [
+      "Stack.Systems",
+      "Linux, Git, Godot 4, Tauri"
+    ]
+  ],
+  "hobbies": [
+    [
+      "Hobbies.Physical",
+      "Climbing, Hiking, Travel"
+    ],
+    [
+      "Hobbies.Creative",
+      "Art, Game Development, UI/UX Design"
+    ],
+    [
+      "Hobbies.Media",
+      "Gaming, Film, Reading"
+    ]
+  ],
+  "contact": [
+    [
+      "Email.Personal",
+      "fkpani0@gmail.com"
+    ],
+    [
+      "Portfolio",
+      "efkay.vercel.app"
+    ],
+    [
+      "GitHub",
+      "fkpanni"
+    ]
+  ],
+  "stats_preview": {
+    "repos": "",
+    "contributed": "",
+    "stars": "",
+    "commits": "",
+    "followers": "",
+    "loc": "",
+    "additions": "",
+    "deletions": ""
+  }
+}
